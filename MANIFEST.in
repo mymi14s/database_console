@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include database_console *.css
+recursive-include database_console *.csv
+recursive-include database_console *.html
+recursive-include database_console *.ico
+recursive-include database_console *.js
+recursive-include database_console *.json
+recursive-include database_console *.md
+recursive-include database_console *.png
+recursive-include database_console *.py
+recursive-include database_console *.svg
+recursive-include database_console *.txt
+recursive-exclude database_console *.pyc
